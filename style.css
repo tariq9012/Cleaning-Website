@@ -111,21 +111,6 @@ ul li{
     display: block;
     border-radius: 20px;
 }
-/* .service-image2 img{
-    height: 200px;
-    width: 300px;
-    object-fit: cover;
-    display: block;
-    border-radius: 11%;
-}
-.service-image3 img{
-    height: 200px;
-    width: 300px;
-    object-fit: cover;
-    display: block;
-    border-radius: 11%;
-} */
-
 .service-image1 p, .service-image2 p, .service-image3 p{
     width: 300px;
     margin-top: 10px;
@@ -151,4 +136,98 @@ ul li{
 }
 .service-image1 h3, .service-image2 h3, .service-image3 h3{
     margin-top: 13px;
+}
+
+/* high-quality-service-section */
+
+.high-quality-service-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+.high-quality-service h1{
+    width: 400px;
+    margin-top: 10px;
+}
+.high-quality-service p{
+    width: 380px;
+    margin-top: 10px;
+    color: rgb(92, 89, 89);
+}
+.high-quality-service button{
+    background-color: #2CB769;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    margin-top: 30px;
+}
+.high-quality-service-image1{
+    background-color: #2CB769;
+    border-radius: 10px;
+}
+.high-quality-service-image1 img{
+    position: relative;
+    top: 4px;
+    height: 265px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.high-quality-service-image2{
+    position: relative;
+    bottom: 160px;
+    right: 200px;
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 8px;
+}
+.high-quality-service-image2 img{
+    height: 200px;
+    width: 200px;
+    object-fit: scale-down;
+    border-radius: 20px;
+    padding-left: 115px;
+}
+
+/* Expert team detail */
+
+.expert-team-heading{
+    display: flex;
+    justify-content: space-around;
+}
+.expert-team-heading h1{
+    width: 400px;
+}
+.expert-team-detail p{
+    width: 350px;
+}
+.expert-team-images{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 90px 0px 90px;
+}
+.expert-team-image1 img{
+    height: 300px;
+}
+.expert-team-image1 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.rating{
+    color: orange;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.expert-team-image1 p{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 250px;
+}
+.icon{
+    margin-top: 20px;
+    margin-left: 20px;
 }
