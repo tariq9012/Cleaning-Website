@@ -21,6 +21,10 @@ ul li{
     display: flex;
     gap: 25px;
 }
+.a{
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+}
 .navbar button{
     background-color: #2CB769;
     border: none;
@@ -230,4 +234,101 @@ ul li{
 .icon{
     margin-top: 20px;
     margin-left: 20px;
+}
+
+/* Detail of pro-cleaning team */
+
+.detail-of-pro-cleaning{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.pro-cleaning-team1{
+    background-color: #2CB769;
+    border-radius: 10px;
+}
+.pro-cleaning-team1 img{
+    height: 280px;
+    border-radius: 15px;
+    padding: 10px 0px 0px 10px;
+    position: relative;
+    top: 4px;
+}
+.pro-cleaning-team2{
+    background-color: white;
+    position: relative;
+    bottom: 160px;
+    left: 240px;
+    background-color: white;
+    width: 180px;
+    border-radius: 20px;
+}
+.pro-cleaning-team2 img{
+    height: 195px;
+    padding: 10px 0px 0px 10px;
+    border-radius: 20px;
+
+}
+.pro-cleaning-team-detail h1{
+    width: 364px;
+    font-size: 40px;
+}
+.pro-cleaning-team-detail p{
+    width: 400px;
+    margin-top: 20px;
+    color: rgb(95, 94, 94);
+}
+.customer-benefits{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.customer-benefits-1 , .customer-benefits-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.customer-benefits span{
+    background-color: #F4F6F5;
+    height: 35px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.customer-benefits span i{
+    color: #2CB769;
+    padding-left: 5px;
+}
+.pro-cleaning-btns{
+    cursor: pointer;
+    margin-top: 30px;
+}
+.btn1{
+    background-color: #2CB769;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+}
+.btn2{
+    border: none;
+    background-color: white;
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    margin-left: 15px;
+}
+
+/* Prices and Packages */
+
+.package-bg-image img{
+    background-image: linear-gradient(rgba(44,183,105,0.9),rgba(44,183,105,0.9));
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
 }
