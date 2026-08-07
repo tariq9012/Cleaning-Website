@@ -338,6 +338,10 @@ img{
 
 /* Prices and Packages */
 
+.package-bg-image{
+    height: 800px;
+    width: 100%;
+}
 .package-bg-main-image{
     position: relative;
     height: 600px;
@@ -416,10 +420,17 @@ margin-top: 20px;
     justify-content: space-around;
     position: relative;
     bottom: 300px;
-    margin-left: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
-.basic-package, .enterprise-package, .premium-package{
+.basic-package, .premium-package{
     background-color: white;
+    height: 500px;
+    width: 280px;
+    border-radius: 15px;
+}
+.enterprise-package{
+    background-color: rgb(253, 252, 252);
     height: 500px;
     width: 280px;
     border-radius: 15px;
@@ -443,7 +454,7 @@ margin-top: 20px;
     color: white;
 }
 .detail-basic-package ul, .detail-enterprise-package ul, .detail-premium-package ul{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -473,4 +484,102 @@ margin-top: 20px;
     border: 1px solid rgb(105, 104, 104);
     color: black;
     cursor: pointer;
+}
+
+/* Feedback details */
+
+.all-feedback-detail{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.feedback-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feedback-detail h1{
+    width: 400px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.feedback-detail p{
+    width: 360px;
+    color: rgb(131, 130, 130);
+}
+.feedback-detail-btns{
+    margin-top: 10px;
+}
+.feedback-detail-btns #btn1{
+    background-color: white;
+    border: none;
+    color: #2CB769;
+    border-radius: 5px;
+    height: 40px;
+    width: 50px;
+    border: 1px solid #2CB769;
+}
+.feedback-detail-btns #btn2{
+    background-color: #2CB769;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+}
+.image-green-bg{
+    background-color: #2CB769;
+    height: 280px;
+    width: 612px;
+    border-radius: 30px;
+}
+.image-white-bg{
+    background-color: white;
+    height: 270px;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.main-image-gender img{
+    height: 230px;
+    width: 150px;
+    object-fit: cover;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.gender-detail{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 50px;
+    bottom: 190px;
+}
+.quote-icon i{
+    height: 50px;
+    width: 70px;
+    background-color: #2CB769;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+.gender-heading{
+    margin-left: 50px;
+}
+.image-white-bg p{
+    width: 300px;
+    position: relative;
+    left: 200px;
+    bottom: 170px;
+    color: rgb(131, 130, 130);
 }
