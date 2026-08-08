@@ -644,5 +644,157 @@ margin-top: 20px;
     width: 250px;
     margin-top: 35px;
     margin-left: 25px;
+}
 
+/* Find Us detail */
+
+.find-us-contact-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.find-us-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 420px;
+}
+.find-us-detail h1{
+    margin-bottom: 10px;
+}
+.find-us-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #F4F6F5;
+    border-radius: 10px;
+    padding: 20px;
+}
+.find-us-icon{
+    height: 45px;
+    width: 45px;
+    min-width: 45px;
+    background-color: #2CB769;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+.find-us-text h3{
+    font-size: 17px;
+}
+.find-us-text p{
+    color: rgb(120, 118, 118);
+    margin-top: 3px;
+}
+.keep-in-touch-detail{
+    width: 420px;
+}
+.keep-in-touch-detail .contact-info{
+    color: #2CB769;
+    font-weight: 500;
+}
+.keep-in-touch-detail h1{
+    margin-top: 5px;
+    font-size: 35px;
+}
+.keep-in-touch-detail > p{
+    color: rgb(120, 118, 118);
+    margin-top: 10px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+.contact-form input, .contact-form textarea{
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 5px;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+}
+.contact-form textarea{
+    height: 90px;
+    resize: none;
+}
+.contact-form button{
+    background-color: #2CB769;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    width: 160px;
+    cursor: pointer;
+}
+ 
+/* Footer */
+ 
+.footer-section{
+    background-color: #10160F;
+    margin-top: 150px;
+    padding: 60px 100px 30px 100px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo img{
+    height: 45px;
+}
+.footer-logo-detail{
+    width: 280px;
+}
+.footer-logo-detail p{
+    color: rgb(170, 168, 168);
+    margin-top: 15px;
+}
+.footer-company, .footer-know-more{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-company h3, .footer-know-more h3, .footer-newsletter h3{
+    color: white;
+    margin-bottom: 5px;
+}
+.footer-company a, .footer-know-more a{
+    text-decoration: none;
+    color: rgb(190, 188, 188);
+}
+.footer-newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 220px;
+}
+.footer-newsletter input{
+    background: none;
+    border: 1px solid rgb(90, 88, 88);
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+}
+.footer-newsletter button{
+    background-color: #2CB769;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+.footer-section hr{
+    border: none;
+    border-top: 1px solid rgb(60, 58, 58);
+    margin: 40px 0px 20px 0px;
+}
+.footer-copyright{
+    text-align: center;
+    color: rgb(170, 168, 168);
 }
