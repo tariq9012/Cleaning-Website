@@ -434,6 +434,7 @@ margin-top: 20px;
     height: 500px;
     width: 280px;
     border-radius: 15px;
+    box-shadow: 1px 1px 10px gray;
 }
 .basic-package h3, .enterprise-package h3, .premium-package h3{
     display: flex;
@@ -543,6 +544,7 @@ margin-top: 20px;
     position: relative;
     top: 10px;
     right: 10px;
+    box-shadow: 5px -1px 10px gray;
 }
 .main-image-gender img{
     height: 230px;
@@ -576,10 +578,71 @@ margin-top: 20px;
 .gender-heading{
     margin-left: 50px;
 }
+.gender-heading h4{
+    color: rgb(128, 125, 125);
+}
 .image-white-bg p{
     width: 300px;
     position: relative;
     left: 200px;
     bottom: 170px;
     color: rgb(131, 130, 130);
+}
+
+/* Blog detail */
+
+.blog-image1, .blog-image3{
+    height: 500px;
+}
+.blog-image2{
+    height: 500px;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 25px;
+}
+.blog-image1 img, .blog-image2 img, .blog-image3 img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+.blog-image1 p, .blog-image2 p, .blog-image3 p{
+    width: 250px;
+    margin-top: 20px;
+    color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+.blog-image1 h3, .blog-image2 h3, .blog-image3 h3{
+    width: 230px;
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.blog-image1 button, .blog-image3 button{
+    background-color: white;
+    color: rgb(119, 118, 118);
+    height: 45px;
+    width: 250px;
+    margin-top: 35px;
+    margin-left: 25px;
+    border-top: 1px solid rgb(228, 227, 227);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.blog-image2 button{
+    background-color: #2CB769;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 45px;
+    width: 250px;
+    margin-top: 35px;
+    margin-left: 25px;
+
 }
